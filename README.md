@@ -1,4 +1,4 @@
-Advice to use Postman to test the application. 
+I advise to use Postman to test the application. 
 With Postman you can add the required headers, body and authentication.
 
 URLS:
