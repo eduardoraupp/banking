@@ -35,7 +35,7 @@ Authorization Bearer (paste access_token here)
 
 and access GET http://localhost:8080/banking/v1/account/1
 
-You will get the balance of the user with ID 1. That it is you!
+You will get the balance of the user with ID 1. That is you!
 
 POST http://localhost:8080/banking/v1/account/deposit
 Header
