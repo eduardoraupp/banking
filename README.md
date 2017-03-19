@@ -65,7 +65,7 @@ Authorization Bearer (paste access_token here)
 
 Try to access the /banking/v1/** urls without authenticating yourself! It would not be possible.
 
-There is a oauth.sql that is performed when the application start, for creating the required oauth tables! 
+<b>There is a oauth.sql that is performed when the application start, for creating the required oauth tables! </b>
 
 
 
