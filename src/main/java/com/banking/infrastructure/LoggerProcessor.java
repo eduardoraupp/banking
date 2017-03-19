@@ -15,6 +15,7 @@ public class LoggerProcessor implements BeanPostProcessor {
 		return bean;
 	}
 
+
 	@Override
 	public Object postProcessBeforeInitialization(final Object bean, final String beanName) throws BeansException {
 		ReflectionUtils.doWithFields(bean.getClass(), field -> {
