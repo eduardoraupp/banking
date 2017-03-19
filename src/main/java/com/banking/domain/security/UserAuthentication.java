@@ -11,9 +11,6 @@ import com.banking.domain.account.User;
 
 public class UserAuthentication implements Serializable, UserDetails {
 
-	/**
-	 *
-	 */
 	private static final long serialVersionUID = 1L;
 	private Role role;
 	private final long id;
