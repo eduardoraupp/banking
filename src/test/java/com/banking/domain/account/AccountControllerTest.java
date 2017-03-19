@@ -8,9 +8,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.banking.domain.account.Account;
-import com.banking.domain.account.AccountController;
-
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = { StartupApplicationTest.class, TestConfiguration.class })
 public class AccountControllerTest {
@@ -135,5 +132,4 @@ public class AccountControllerTest {
 			Assert.assertEquals("You must to deposit an amount bigger than 0", e.getMessage());
 		}
 	}
-
 }
