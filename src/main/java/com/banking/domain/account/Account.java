@@ -19,9 +19,6 @@ import com.fasterxml.jackson.annotation.JsonProperty;
 @Table(name="account")
 public class Account implements Serializable {
 
-	/**
-	 *
-	 */
 	private static final long serialVersionUID = 1L;
 	@Id
 	@GeneratedValue(strategy=GenerationType.IDENTITY)
