@@ -5,7 +5,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.banking.domain.account.repositories.AccountRepository;
+import com.banking.domain.infrastructure.repositories.AccountRepository;
 import com.banking.infrastructure.Log;
 import com.google.common.base.Preconditions;
 
