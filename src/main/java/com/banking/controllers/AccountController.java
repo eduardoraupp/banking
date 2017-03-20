@@ -1,4 +1,4 @@
-package com.banking.domain.controllers;
+package com.banking.controllers;
 
 import javax.validation.Valid;
 

@@ -8,7 +8,7 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.context.TestConfiguration;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.banking.domain.controllers.AccountController;
+import com.banking.controllers.AccountController;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = { StartupApplicationTest.class, TestConfiguration.class })
