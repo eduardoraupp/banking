@@ -13,11 +13,11 @@ import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @SpringBootApplication
-@ComponentScan({ "com.banking.domain", "com.banking.infrastructure",
-"com.banking.domain.security" })
+@ComponentScan({ "com.banking.domain", "com.banking.infrastructure", "com.banking.infrastructure.repositories",
+"com.banking.domain.security", "com.banking.controllers" })
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 @EnableAutoConfiguration
-@EnableJpaRepositories(basePackages = { "com.banking.domain" })
+@EnableJpaRepositories(basePackages = { "com.banking.infrastructure.repositories" })
 @EntityScan({ "com.banking.domain.account" })
 @EnableTransactionManagement(mode = AdviceMode.ASPECTJ, proxyTargetClass = true)
 @Import({ DefaultConfiguration.class, SwaggerConfiguration.class, JPAConfiguration.class,
