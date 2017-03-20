@@ -6,6 +6,8 @@ import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
+import com.banking.domain.account.repositories.AccountRepository;
+import com.banking.domain.account.repositories.UserRepository;
 import com.banking.infrastructure.CommonPasswordEncoder;
 import com.banking.infrastructure.Log;
 

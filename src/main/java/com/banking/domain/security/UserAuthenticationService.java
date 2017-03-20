@@ -8,7 +8,7 @@ import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
 import com.banking.domain.account.User;
-import com.banking.domain.account.UserRepository;
+import com.banking.domain.account.repositories.UserRepository;
 import com.banking.infrastructure.Log;
 
 @Service
