@@ -6,10 +6,10 @@ import org.slf4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import com.banking.domain.infrastructure.repositories.AccountRepository;
-import com.banking.domain.infrastructure.repositories.UserRepository;
 import com.banking.infrastructure.CommonPasswordEncoder;
 import com.banking.infrastructure.Log;
+import com.banking.infrastructure.repositories.AccountRepository;
+import com.banking.infrastructure.repositories.UserRepository;
 
 @Component
 public class BankingApplication {

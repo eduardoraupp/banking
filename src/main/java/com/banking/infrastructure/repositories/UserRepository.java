@@ -1,4 +1,4 @@
-package com.banking.domain.infrastructure.repositories;
+package com.banking.infrastructure.repositories;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
